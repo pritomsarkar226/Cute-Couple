@@ -89,3 +89,7 @@ a.active{
 .form-control{
 	border-radius: 20px;
 }
+.sign-in{
+	background: none;
+	border: none;
+}
