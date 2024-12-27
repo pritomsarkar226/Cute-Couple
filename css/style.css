@@ -46,12 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-.main{
-	background: greenyellow;
-	height: 300px;
-	width: 100%;
+.main-header{
+	position: relative;
+  text-align: center;
+  color: white;
 }
-.main-img img{
-	width: 100%;
+.sub-header{
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+.navbar-brand img{
+margin-right: 226px;
+}
+
+.d-flex{
+	margin-right: 153px;
+}
+.nav-item{
+	margin-right: 58px;
+}
+.nav-item a{
+	font-family: 'ralewaymedium';
+	color: #ffffff;
+}
+a.active{
+	font-family:  'ralewayextrabold';
+}
+.nav-item a{
+	background: rgb(239, 67, 67);
+	padding: 5px 10px;
+	border-radius: 20px;
+}
+.navbar-nav .nav-link.active{
+	color: #ffffff;
+}
+.form-control{
+	border-radius: 20px;
 }
