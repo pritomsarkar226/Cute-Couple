@@ -46,6 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+@font-face {
+	font-family: 'Raleway-SemiBoldItalic';
+	src: url(../fonts/Raleway-SemiBoldItalic.ttf);
+  } 
+
 .main-header{
 	position: relative;
   text-align: center;
@@ -57,7 +62,7 @@ table {
 	right: 16px;
 }
 .navbar-brand {
-margin-right:250px;
+margin-right:70px;
 }
 
 .d-flex{
@@ -66,16 +71,14 @@ margin-right:250px;
 .nav-item{
 	margin-right: 58px;
 }
-.nav-item a{
-	font-family: 'ralewaymedium';
-	color: #ffffff;
-}
 a.active{
 	font-family:  'ralewayextrabold';
 }
 .nav-item a{
 	padding: 5px 10px;
 	color: #7c7183;
+	font-family: 'Raleway-SemiBoldItalic';
+	font-size: 20px;
 }
 .navbar-nav .nav-link.active{
 	color: #ffffff;
