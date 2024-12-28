@@ -59,26 +59,24 @@ table {
 .sub-header{
 	position: absolute;
 	top: 8px;
-	right: 16px;
+	right:50px;
 }
-.navbar-brand {
-margin-right:70px;
+.navbar-nav .nav-link.active {
+    color: #ff0000;
 }
 
-.d-flex{
-	margin-right: 100px;
-}
 .d-flex button{
 	margin-left: 50px;
 }
 .nav-item{
-	margin-right: 58px;
+	margin-right: 20px;
+	margin-left: 50px;
 }
 a.active{
 	font-family:  'ralewayextrabold';
 }
 .nav-item a{
-	padding: 5px 10px;
+	padding: 10px 10px;
 	color: #7c7183;
 	font-family: 'Raleway-SemiBoldItalic';
 	font-size: 20px;
@@ -86,10 +84,11 @@ a.active{
 .navbar-nav .nav-link.active{
 	color: #ffffff;
 }
-.form-control{
-	border-radius: 20px;
-}
 .sign-in{
 	background: none;
 	border: none;
+	
+}
+.right-mar{
+	margin-right: 200px;
 }
